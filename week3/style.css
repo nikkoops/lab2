@@ -10,21 +10,21 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #ecf0f3;
+  background: #1e0524;
 }
 .wrapper,
 .wrapper .img-area,
 .social-icons a,
 .buttons button{
-  background: #ecf0f3;
-  box-shadow: -3px -3px 7px #ffffff,
-               3px 3px 5px #ceced1;
+  background: #000000;
+  box-shadow: -3px -3px 7px #1e0524,
+               3px 3px 5px #1e0524;
 }
 .wrapper{
   position: relative;
   width: 350px;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 50px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,7 @@ body{
 }
 .wrapper .icon{
   font-size: 17px;
-  color: #31344b;
+  color: #612b66;
   position: absolute;
   cursor: pointer;
   opacity: 0.7;
@@ -106,7 +106,7 @@ body{
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #ecf0f3;
+  background: #2b0628;
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
 }
