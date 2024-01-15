@@ -10,7 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #000000;
+  background: #353535;
 }
 .wrapper,
 .wrapper .img-area,
@@ -107,7 +107,7 @@ body{
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #000000;
+  background: #353535;
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
 }
@@ -202,5 +202,26 @@ button[type="submit"] {
   background-color: #800080; /* Change the color as desired */
   border-radius: 50%; /* Make it a circle */
   pointer-events: none; /* Ensure it doesn't interfere with clicks */
+}
+  
+body.dark-mode {
+  background-color: #212529; /* Dark gray background */
+  color: #f5f5f5; /* Light gray text */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transitions */
+
+  a {
+    color: #9df5ff; /* Blueish link color */
+  }
+
+  button {
+    background-color: #353b48; /* Darker gray for buttons */
+    border-color: #555; /* Slightly lighter border */
+  }
+
+  img {
+    filter: invert(1); /* Invert images */
+  }
+
+  /* Additional styles for other elements as needed */
 }
 
