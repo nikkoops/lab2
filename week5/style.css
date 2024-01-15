@@ -132,68 +132,62 @@ body{
   color: #808080;
 }
 .social-icons a.linkedin i{
-  color: #00000;
+  color: #4a66b6;
 }
 .wrapper .buttons{
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.buttons button{
-  position: relative;
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 12px 0;
-  color: #31344b;
-  font-size: 17px;
-  font-weight: 400;
+
+#contact-form {
+  width: 100px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  cursor: pointer;
-  z-index: 4;
 }
-.buttons button:first-child{
-  margin-right: 10px;
+
+fieldset {
+  border: none;
+  padding: 0;
 }
-.buttons button:last-child{
-  margin-left: 10px;
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.wrapper .social-share{
-  display: flex;
+
+label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
-  margin-top: 30px;
-  padding: 0 5px;
-  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Ensure consistent sizing */
+  margin-bottom: 10px;
 }
-.social-share .row{
-  color: #31344b;
-  font-size: 17px;
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button[type="submit"] {
+  background-color: #000000; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
   cursor: pointer;
-  position: relative;
 }
-.social-share .row::before{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 2px;
-  background: #e0e6eb;
-  margin-left: -25px;
-}
-.row:first-child::before{
-  background: none;
-}
-.social-share .row i.icon-2{
-  position: absolute;
-  left: 0;
-  top: 50%;
-  color: #31344b;
-  transform: translateY(-50%);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.row:nth-child(1):hover i.fa-heart,
-.row:nth-child(2):hover i.fa-comment{
-  opacity: 1;
-  pointer-events: auto;
+
+.contact-header {
+  color: #ffffff;
 }
