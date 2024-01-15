@@ -181,7 +181,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #000000; /* Green */
+  background-color: #000000; 
   color: white;
   padding: 10px 20px;
   border: 1px solid white;
@@ -192,3 +192,15 @@ button[type="submit"] {
 .contact-header {
   color: #ffffff;
 }
+
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; /* Adjust the size as desired */
+  height: 20px; /* Adjust the size as desired */
+  background-color: #800080; /* Change the color as desired */
+  border-radius: 50%; /* Make it a circle */
+  pointer-events: none; /* Ensure it doesn't interfere with clicks */
+}
+
