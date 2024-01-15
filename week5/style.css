@@ -22,6 +22,7 @@ body{
 }
 .wrapper{
   position: relative;
+  height: 450px;
   width: 350px;
   padding: 50px;
   border-radius: 20px;
