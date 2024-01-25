@@ -29,4 +29,6 @@ function animateCircles() {
     requestAnimationFrame(animateCircles);
   }
   
-  animateCircles();
+  animateCircles(); 
+
+  
