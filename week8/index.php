@@ -26,7 +26,7 @@
   </div>
     <form class="wrapper" action="mailto:youremail@example.com" method="post" enctype="text/plain">
       <fieldset>
-        <legend class="contact-header">Inquire Now!</legend>
+        <legend class="contact-header">Inquiry Form</legend>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Name" required>
     
