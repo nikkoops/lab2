@@ -53,6 +53,10 @@
 <body>
 
 <?php
+echo "Welcome Home!";
+?>
+
+<?php
 $str = "Welcome!";
 $pattern = "/microsoft/i";
 echo preg_replace($pattern, "Albania", $str);
