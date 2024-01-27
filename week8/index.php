@@ -50,20 +50,6 @@
     <script src="async.js"></script>
 
   
-<body>
-
-<?php
-echo "Welcome Home!";
-?>
-
-<?php
-$str = "Welcome!";
-$pattern = "/microsoft/i";
-echo preg_replace($pattern, "Albania", $str);
-?>
-
-
-</body>
 </html>
 
 </body>
