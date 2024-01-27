@@ -58,11 +58,6 @@ $pattern = "/microsoft/i";
 echo preg_replace($pattern, "W3Schools", $str);
 ?>
 
-function myMessage() {
-  echo "Hello";
-}
-
-myMessage();
 
 </body>
 </html>
