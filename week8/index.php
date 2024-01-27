@@ -55,7 +55,7 @@
 <?php
 $str = "Welcome!";
 $pattern = "/microsoft/i";
-echo preg_replace($pattern, "W3Schools", $str);
+echo preg_replace($pattern, "Albania", $str);
 ?>
 
 
