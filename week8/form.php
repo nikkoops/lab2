@@ -101,6 +101,13 @@ echo $gender;
 ?>
 
 <?php
+//for localhost
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
+
+//for socitcloud
 $servername = "localhost";
 $username = "webprogmi222_sf221";
 $password = "xE*Y2nleNVvZm[!!  ";
